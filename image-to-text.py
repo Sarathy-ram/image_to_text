@@ -3,7 +3,7 @@ import pytesseract
 import os
 from PIL import Image
 import sys
-
+import numpy as np
 def get_string(img_path):
     # Read image with opencv
     img = cv2.imread(img_path)
